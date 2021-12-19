@@ -4,7 +4,7 @@ let res = await fetch('https://raw.githubusercontent.com/VideFrelan/words/main/p
 let txt = await res.text()
 let arr = txt.split('\n')
 let cita = arr[Math.floor(Math.random() * arr.length)]
-conn.sendFile(m.chat, cita, 'asupan.mp4', 'Nih kak asupan nya!!\n*Follow:* https://instagram.com/adulalhy2', m, false)
+conn.sendFile(m.chat, cita, 'asupan.mp4', 'Nih kak asupan nya!!\n*Follow:* https://instagram.com/memeupinipinindonesia', m, false)
 }
 
 handler.tags = ['fun', 'internet']
