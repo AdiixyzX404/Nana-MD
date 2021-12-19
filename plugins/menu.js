@@ -23,15 +23,18 @@ const defaultMenu = {
 │ Tanggal Islam: *%dateIslamic*
 │ Waktu: *%time*
 │
+│ Lib: *@adiwajshing/baileys-md*
 │ Runtime: *%uptime*
+│ Original Source Code:
+│ *https://github.com/Nurutomo/wabot-aq*
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
   body: '│ • %cmd %islimit %isPremium',
   footer: '╰────\n',
   after: `
-*%npmname@^%version*
-${'```%npmdesc```'}
+*adyybot-md@^%version*
+\`\`\`Testing Multi Device\`\`\`
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
@@ -137,14 +140,14 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            hydratedButtons: [{
              urlButton: {
                displayText: 'Source Code',
-               url: 'https://github.com/adulalhy/Nana-MD'
+               url: 'https://github.com/Nurutomo/wabot-aq'
              }
 
            },
                {
              callButton: {
                displayText: 'Call Owner',
-               phoneNumber: '+62'
+               phoneNumber: '+60199782326'
              }
            },
                {
@@ -195,7 +198,7 @@ handler.admin = false
 handler.botAdmin = false
 
 handler.fail = null
-handler.exp = 3
+handler.exp = false
 
 module.exports = handler
 
