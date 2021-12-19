@@ -10,7 +10,7 @@ Jawaban : *@${siapa.replace(/@.+/, '')}*
       } catch (e) {
               console.log(e)
               m.reply('Error')
-              conn.sendMessage('6281390658325@s.whatsapp.net', {text : 'Use error\nNo: *' + m.sender.split`@`[0] + '*\nCommand: *' + m.text + '*\n\n*' + e + '*'})
+              conn.sendMessage('60199782326@s.whatsapp.net', {text : 'Use error\nNo: *' + m.sender.split`@`[0] + '*\nCommand: *' + m.text + '*\n\n*' + e + '*'})
       }
 }
 handler.help = ['', 'kah'].map(v => 'siapa' + v + ' <text>?')
